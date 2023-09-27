@@ -1,0 +1,18 @@
+
+
+body {
+    background: rgba(128, 128, 128, 0.658);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    background: rgb(119, 10, 221);
+    
+}
+.div sup {
+    color: blue;
+    margin: 15px;
+}
