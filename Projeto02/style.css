@@ -4,15 +4,55 @@ body {
     background: rgba(128, 128, 128, 0.658);
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+
 }
 
-.div {
-    display: flex;
+.card {
+    width: 410px;
+    height: 450px;  
+    flex-direction: column;
+    background: white;
+    border-radius: 15px;
+    display:flex;
     align-items: center;
-    background: rgb(119, 10, 221);
     
 }
-.div sup {
-    color: blue;
-    margin: 15px;
+
+.sup {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
 }
+
+.inf {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.inf > button {
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    color: rgb(248, 247, 250);
+    font-size: 23px;
+    background: rgba(31, 43, 206, 0.74);
+    margin-bottom: 15px;
+}
+.inf > button:hover {
+
+    cursor: pointer;
+}
+
+.sup > input {
+
+    width: 275px;
+    height: 25px;
+    margin-top: 45px;
+
+} 
